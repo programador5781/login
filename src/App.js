@@ -1,4 +1,5 @@
 import { LoginButton } from './login';
+import { LogoutButton } from './logout';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <LoginButton />
+        <LogoutButton />
       </header>
     </div>
   );
